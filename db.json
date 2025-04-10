@@ -1,0 +1,150 @@
+{
+  "products": [
+    {
+      "id": "b32e",
+      "title": "Air Jordan 1 \"Dior\" High",
+      "price": "16000",
+      "category": "Men",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSPKruMDzGspxQQhBR4Lyzom1yl_6z20r50QQKZ5wjndwgSTzg4v_7sAtn58EtwMD8ZQhlVS_3v5CBQMtdOl3M49rCjywX_rwdncb34TIWFl9EQRSM4fGIfHA",
+      "description": "men shoes"
+    },
+    {
+      "id": "4031",
+      "title": "Swarovski Swan bracelet Magnetic closure",
+      "price": "12000",
+      "category": "Jewellry",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQtQR5ahkUT_umsyywnsIxPjryMfKUhLolTiWzdd1IKUK3T8NfXvounQ2C0fOxeRhpTOPrq25hwvoSOWPQNn4Ns9xgQ3nD4I0fLQKRGpFuA0-86IsaVFObSHQ",
+      "description": "women's jewellery"
+    },
+    {
+      "id": "be8e",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSzYxLc8OC825VO2QrF4B7M6th6_50mOCUAlb8kvp-4Z23PB6yxxgJ14OKm7ySme9VQA0zj-cOYQFlL6ZV11KwnIEoTpSyIKRj2-hX5uDhb14EGnbQGAJ5bbw",
+      "title": "Apple iPhone 16 Pro Max",
+      "category": "electronics",
+      "price": "128000",
+      "description": "STUNNING TITANIUM DESIGN — iPhone 16 Pro Max has a strong and light titanium design with a larger 17.43 cm (6.9″) Super Retina XDR display. It’s remarkably durable with the latest-generation Ceramic Shield material that’s 2x tougher than any smartphone glass."
+    },
+    {
+      "id": "8933",
+      "image": "https://m.media-amazon.com/images/I/61yNhXAOcNL._SX522_.jpg",
+      "price": "1700",
+      "title": "BIGGKI Toy Drone",
+      "category": "electronics",
+      "description": "These include High-Speed Rotation, Circle Fly, 3 Speed Gears , Gesture Control, Headless Mode, One Key Takeoff/Landing, Altitude Hold, 360° Flip (achieved by pressing the right joystick down and selecting the desired direction)"
+    },
+    {
+      "id": "f997",
+      "image": "https://m.media-amazon.com/images/I/61q9OZbTdRL._SY741_.jpg",
+      "price": "1200",
+      "title": "Miss Chase Women'sV-Neck Sleeveless Solid Wrap Regular Jumpsuit",
+      "category": "Female",
+      "description": "Fabric: 96% Polyester 4% Elastane | Wash Care: Cold Machine Wash With Similar Colors, Do Not Bleach, Tumble Dry Low, Warm Iron\nStyle: Wrap | Pattern: Solid | Fit: Slim Fit | Length: Regular | Closure: Zip | Neck: V-Neck | Sleeves: Sleeveless | Pockets: 2 Side Pockets"
+    },
+    {
+      "id": "8f22",
+      "image": "https://m.media-amazon.com/images/I/512hvqlxOuL._SY695_.jpg",
+      "title": "Nakabh Cuban",
+      "price": "2500",
+      "category": "Jewellry",
+      "description": " \"NAKABH - Your reflection\" is your one stop destination for making any given day an occasion. We understand that your jewels are more than just accessories; they are an extension of your personality."
+    },
+    {
+      "id": "8303",
+      "image": "https://m.media-amazon.com/images/I/71lJ2rRxiEL._SY741_.jpg",
+      "title": "VERO MODA Women's Above The Knee Dress",
+      "price": "2730",
+      "category": "Female",
+      "description": "Richa Fashion Pvt. Ltd (Noida) A-115, SECTOR - 65,,Noida,201301,IN, Richa Fashion Pvt. Ltd (Noida) A-115, SECTOR - 65,,Noida,201301,IN"
+    },
+    {
+      "id": "f80b",
+      "image": "https://m.media-amazon.com/images/I/61-JK-BVP7L._SY741_.jpg",
+      "title": "SOJANYA",
+      "price": "800",
+      "category": "Men",
+      "description": "Styles : Printed Long Kurta\nCotton Blend (80% Cotton, 20% Linen)\nCollar: Mandarin Collar, Sleeves: Full, Fit type: Regular/ Comfort, Length: Knee length Kurta\nProduct Size Guidance (A): Please refer to CHEST size measurement in the SIZE CHART for your correct size"
+    },
+    {
+      "id": "6233",
+      "image": "https://m.media-amazon.com/images/I/61i1rTVChPL._SY741_.jpg",
+      "price": "4000",
+      "title": "Calvin Klein Department2127 Sweat Shirt",
+      "category": "Men",
+      "description": "SHAHI EXPORTS PVT, SHAHI EXPORTS PVT, Ambalipura, Belandur Gate, Sarjapura Main Road,Bangalore, Bengaluru Urban, Karnataka"
+    },
+    {
+      "id": "d919",
+      "image": "https://m.media-amazon.com/images/I/71d5gZR637L._SX522_.jpg",
+      "title": "Canon EOS R6 Mark",
+      "price": "79000",
+      "category": "Electronics",
+      "description": "Explore boundless possibilities with the Canon EOS R6 Mark II, harmonized flawlessly with the RF 24–105mm f/4 L IS USM lens. With 24.2MP, it's your creative companion for immersive content creation and spellbinding wildlife photography, epitomizing elegance in sleek black design."
+    },
+    {
+      "id": "6b62",
+      "image": "https://m.media-amazon.com/images/G/31/img21/MA2024/AW24FLIP/PREMIUMBRANDS/REV/andamen._SY530_QL85_FMpng_.png",
+      "title": "Andamen Men Full Sleeve Slim Shirt",
+      "category": "Men",
+      "description": "Multiple Sizes Available: Find Your Ideal Fit With A Range Of Sizes.\nDisclaimer: Product Color May Slightly Vary Due To Photographic Lighting Sources Or Your Monitor Settings"
+    },
+    {
+      "id": "4ba2",
+      "image": "https://m.media-amazon.com/images/I/618HTiaUa-L._SY879_.jpg",
+      "title": "Libas Women Printed Cotton Straight Kurta & Palazzo With Dupatta",
+      "price": "1100",
+      "description": "Top Color : Yellow\nSet Contents : 1 Kurta 1 Palazzo 1 Dupatta\nTop Pattern : Printed\nTop Fabric : Cotton\nOccasion : Fusion",
+      "category": "Female"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "e72e",
+      "productId": "b32e",
+      "reviewer": "heer",
+      "text": "shoes\n",
+      "rating": 3
+    },
+    {
+      "id": "2b88",
+      "productId": "4031",
+      "reviewer": "Heer",
+      "text": "wonderful jewellery",
+      "rating": 5
+    },
+    {
+      "id": "89a1",
+      "productId": "be8e",
+      "reviewer": "heer",
+      "text": "iphone",
+      "rating": 4
+    },
+    {
+      "id": "7499",
+      "productId": "be8e",
+      "reviewer": "heer",
+      "text": "iphone 16",
+      "rating": 2
+    },
+    {
+      "id": "c565",
+      "productId": "4031",
+      "reviewer": "heer",
+      "text": "jewelry ",
+      "rating": 3
+    },
+    {
+      "id": "b102",
+      "productId": "4031",
+      "reviewer": "Heer",
+      "text": "dsa",
+      "rating": 3
+    },
+    {
+      "id": "a59a",
+      "productId": "8f22",
+      "reviewer": "heer",
+      "text": "men's jewelry ",
+      "rating": 3
+    }
+  ]
+}
