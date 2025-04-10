@@ -1,4 +1,6 @@
 
+https://github.com/user-attachments/assets/05d72ad6-2519-4a06-a52d-f725dd34c5f1
+
   <h1>Product API - React Application</h1>
         
   <div class="section">
@@ -23,6 +25,35 @@
                 <li><strong>Notifications:</strong> Toast notifications for actions like adding, updating, or deleting products.</li>
             </ul>
         </div>
+
+  <div class="section"> 
+  <h1>Screenshot and Video</h1>
+
+
+
+  
+
+
+
+https://github.com/user-attachments/assets/5b7e8f5f-bfbd-491d-acf2-3fae77d62b03
+
+
+
+
+
+![Screenshot 2025-04-10 182735](https://github.com/user-attachments/assets/3c0d12dc-2319-4f63-b30d-49c666bd09b6)
+![Screenshot 2025-04-10 182750](https://github.com/user-attachments/assets/497c8bea-ef4f-4685-86fb-cbbbebc2a786)
+![Screenshot 2025-04-10 182815](https://github.com/user-attachments/assets/7053659b-173e-4d45-ade6-3488dcc4a040)
+![Screenshot 2025-04-10 182829](https://github.com/user-attachments/assets/ea5d43d9-a27c-462b-af30-6f362f401656)
+![Screenshot 2025-04-10 182842](https://github.com/user-attachments/assets/619dd8bf-ce9e-40e4-b931-9e4a3986ac49)
+![Screenshot 2025-04-10 182903](https://github.com/user-attachments/assets/bf99bf38-582e-431a-9220-f9d53db99eb0)
+![Screenshot 2025-04-10 182915](https://github.com/user-attachments/assets/7419e08c-988e-4722-ad5e-9442a4f72f41)
+![Screenshot 2025-04-10 183150](https://github.com/user-attachments/assets/864b3cd3-6d59-4852-94d0-b74ded4cd7e1)
+
+
+
+
+  </div>
 
   <div class="section">
             <h2>Prerequisites</h2>
