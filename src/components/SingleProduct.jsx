@@ -13,7 +13,7 @@ function SingleProduct() {
   const [reviews, setReviews] = useState([]);
 
   useEffect(() => {
-    console.log('Product ID from URL params:', id); 
+    console.log('Product ID from URL params:', id);
     fetchProduct();
     fetchReviews();
   }, [id]);
@@ -30,7 +30,8 @@ function SingleProduct() {
 
   const fetchReviews = async () => {
     try {
-      const res = await fetch(`http://localhost:3000/reviews?productId=${encodeURIComponent(id)}`);
+      const url = `http://localhost:3000/reviews?productId=${encodeURIComponent(id)}`;
+      const res = await fetch(url);
       const data = await res.json();
       setReviews(data.reverse());
     } catch (err) {
@@ -40,20 +41,23 @@ function SingleProduct() {
 
   const handleReviewSubmit = async (e) => {
     e.preventDefault();
+    if (!id) {
+      console.error('Product ID is missing!');
+      return;
+    }
     if (!reviewText.trim() || !reviewer.trim() || rating === 0) return;
 
     const newReview = {
-      productId: id, 
+      productId: id,
       reviewer,
       text: reviewText,
       rating,
     };
 
-    console.log('Submitting new review:', newReview); 
-
     try {
       const res = await fetch('http://localhost:3000/reviews', {
         method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(newReview),
       });
       const savedReview = await res.json();
@@ -67,7 +71,6 @@ function SingleProduct() {
   };
 
   const handleDeleteReview = async (reviewId) => {
-    if (!confirmDelete) return;
     try {
       await fetch(`http://localhost:3000/reviews/${reviewId}`, {
         method: 'DELETE',

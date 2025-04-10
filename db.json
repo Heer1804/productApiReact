@@ -9,30 +9,6 @@
       "description": "men shoes"
     },
     {
-      "id": "4031",
-      "title": "Swarovski Swan bracelet Magnetic closure",
-      "price": "12000",
-      "category": "Jewellry",
-      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQtQR5ahkUT_umsyywnsIxPjryMfKUhLolTiWzdd1IKUK3T8NfXvounQ2C0fOxeRhpTOPrq25hwvoSOWPQNn4Ns9xgQ3nD4I0fLQKRGpFuA0-86IsaVFObSHQ",
-      "description": "women's jewellery"
-    },
-    {
-      "id": "be8e",
-      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSzYxLc8OC825VO2QrF4B7M6th6_50mOCUAlb8kvp-4Z23PB6yxxgJ14OKm7ySme9VQA0zj-cOYQFlL6ZV11KwnIEoTpSyIKRj2-hX5uDhb14EGnbQGAJ5bbw",
-      "title": "Apple iPhone 16 Pro Max",
-      "category": "electronics",
-      "price": "128000",
-      "description": "STUNNING TITANIUM DESIGN — iPhone 16 Pro Max has a strong and light titanium design with a larger 17.43 cm (6.9″) Super Retina XDR display. It’s remarkably durable with the latest-generation Ceramic Shield material that’s 2x tougher than any smartphone glass."
-    },
-    {
-      "id": "8933",
-      "image": "https://m.media-amazon.com/images/I/61yNhXAOcNL._SX522_.jpg",
-      "price": "1700",
-      "title": "BIGGKI Toy Drone",
-      "category": "electronics",
-      "description": "These include High-Speed Rotation, Circle Fly, 3 Speed Gears , Gesture Control, Headless Mode, One Key Takeoff/Landing, Altitude Hold, 360° Flip (achieved by pressing the right joystick down and selecting the desired direction)"
-    },
-    {
       "id": "f997",
       "image": "https://m.media-amazon.com/images/I/61q9OZbTdRL._SY741_.jpg",
       "price": "1200",
@@ -85,7 +61,8 @@
       "image": "https://m.media-amazon.com/images/G/31/img21/MA2024/AW24FLIP/PREMIUMBRANDS/REV/andamen._SY530_QL85_FMpng_.png",
       "title": "Andamen Men Full Sleeve Slim Shirt",
       "category": "Men",
-      "description": "Multiple Sizes Available: Find Your Ideal Fit With A Range Of Sizes.\nDisclaimer: Product Color May Slightly Vary Due To Photographic Lighting Sources Or Your Monitor Settings"
+      "description": "Multiple Sizes Available: Find Your Ideal Fit With A Range Of Sizes.\nDisclaimer: Product Color May Slightly Vary Due To Photographic Lighting Sources Or Your Monitor Settings",
+      "price": "2000"
     },
     {
       "id": "4ba2",
@@ -105,46 +82,32 @@
       "rating": 3
     },
     {
-      "id": "2b88",
-      "productId": "4031",
-      "reviewer": "Heer",
-      "text": "wonderful jewellery",
-      "rating": 5
-    },
-    {
-      "id": "89a1",
-      "productId": "be8e",
-      "reviewer": "heer",
-      "text": "iphone",
-      "rating": 4
-    },
-    {
-      "id": "7499",
-      "productId": "be8e",
-      "reviewer": "heer",
-      "text": "iphone 16",
-      "rating": 2
-    },
-    {
-      "id": "c565",
-      "productId": "4031",
-      "reviewer": "heer",
-      "text": "jewelry ",
-      "rating": 3
-    },
-    {
-      "id": "b102",
-      "productId": "4031",
-      "reviewer": "Heer",
-      "text": "dsa",
-      "rating": 3
-    },
-    {
       "id": "a59a",
       "productId": "8f22",
       "reviewer": "heer",
       "text": "men's jewelry ",
       "rating": 3
+    },
+    {
+      "id": "ff77",
+      "productId": "f80b",
+      "reviewer": "heer",
+      "text": "purple\n",
+      "rating": 4
+    },
+    {
+      "id": "a380",
+      "productId": "f997",
+      "reviewer": "heer",
+      "text": "white\n",
+      "rating": 3
+    },
+    {
+      "id": "f06d",
+      "productId": "8303",
+      "reviewer": "heer",
+      "text": "drees",
+      "rating": 4
     }
   ]
 }

@@ -11,7 +11,7 @@ import { toast, ToastContainer } from 'react-toastify';
 function View() {
   const [products, setProducts] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
-  const [selectedCategory, setSelectedCategory] = useState("All");
+  const [category, setCategory] = useState("All");
   const [currentPage, setCurrentPage] = useState(1);
   const productsPerPage = 6;
 
@@ -48,7 +48,7 @@ function View() {
     const matchesSearch = title.toLowerCase().includes(searchTerm.toLowerCase());
 
     const matchesCategory =
-      selectedCategory === "All" || product.category === selectedCategory;
+      category === "All" || product.category === category;
 
     return matchesSearch && matchesCategory;
   });
@@ -81,7 +81,7 @@ function View() {
         <Col md={4}>
           <select
             className="form-select-custom w-100"
-            value={selectedCategory}
+            value={category}
             onChange={(e) => {
               setSelectedCategory(e.target.value);
               setCurrentPage(1);
