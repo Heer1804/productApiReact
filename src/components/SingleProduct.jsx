@@ -20,7 +20,7 @@ function SingleProduct() {
 
   const fetchProduct = async () => {
     try {
-      const res = await fetch(`http://localhost:3000/products/${id}`);
+      const res = await fetch(`http://localhost:4000/products/${id}`);
       const data = await res.json();
       setProduct(data);
     } catch (err) {
@@ -30,7 +30,7 @@ function SingleProduct() {
 
   const fetchReviews = async () => {
     try {
-      const url = `http://localhost:3000/reviews?productId=${encodeURIComponent(id)}`;
+      const url = `http://localhost:4000/reviews?productId=${encodeURIComponent(id)}`;
       const res = await fetch(url);
       const data = await res.json();
       setReviews(data.reverse());
@@ -55,7 +55,7 @@ function SingleProduct() {
     };
 
     try {
-      const res = await fetch('http://localhost:3000/reviews', {
+      const res = await fetch('http://localhost:4000/reviews', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(newReview),
@@ -72,7 +72,7 @@ function SingleProduct() {
 
   const handleDeleteReview = async (reviewId) => {
     try {
-      await fetch(`http://localhost:3000/reviews/${reviewId}`, {
+      await fetch(`http://localhost:4000/reviews/${reviewId}`, {
         method: 'DELETE',
       });
       setReviews(reviews.filter((r) => r.id !== reviewId));

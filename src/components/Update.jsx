@@ -13,7 +13,7 @@ function Update() {
   useEffect(() => {
     const fetchProduct = async () => {
       try {
-        const res = await fetch(`http://localhost:3000/products/${id}`);
+        const res = await fetch(`http://localhost:4000/products/${id}`);
         const data = await res.json();
         setProduct(data);
       } catch (err) {
@@ -31,7 +31,7 @@ function Update() {
   const submitProduct = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch(`http://localhost:3000/products/${id}`, {
+      const res = await fetch(`http://localhost:4000/products/${id}`, {
         method: "PUT",
         body: JSON.stringify(product),
       });

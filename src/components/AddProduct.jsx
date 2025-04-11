@@ -17,7 +17,7 @@ function AddProduct() {
   const submitProduct = async (e) => {
     e.preventDefault();
     try {
-      const addProduct = await fetch("http://localhost:3000/products", {
+      const addProduct = await fetch("http://localhost:4000/products", {
         method: "POST",
         body: JSON.stringify(product)
       });
